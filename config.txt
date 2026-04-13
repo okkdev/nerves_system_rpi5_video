@@ -24,6 +24,7 @@ gpu_mem=192
 # Enable I2C and SPI
 dtparam=i2c_arm=on
 dtparam=spi=on
+dtoverlay=spi0-1cs
 
 # Enable audio (loads snd_bcm3825)
 dtparam=audio=on
